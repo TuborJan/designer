@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    padding-top: 48px;
+
+    .logo {
+        margin-right: 248px;
+        padding-top: 5px;
+    }
+
+    .nav {
+        max-width: 574px;
+        margin-right: 153px;
+
+        ul {
+            display: flex;
+            gap: 127.3px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+
+            li {
+                &::after {
+                    content: "";
+                    display: block;
+                    margin-top: 16px;
+                    border-bottom: 2px solid #ffffff;
+                    transform: scaleX(0);
+                    transition: transform 0.2s ease-in-out;
+                }
+
+                &:hover {
+                    &::after {
+                        transform: scaleX(1);
+                    }
+                }
+            }
+
+            .active {
+                border-bottom: 2px solid #ffffff;
+                transition: transform 0.3s ease-in-out;
+                pointer-events: none;
+            }
+        }
+    }
+
+    .signIn {
+        margin-right: 76px;
+
+        button {
+            padding: 1.5px 20.5px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+        }
+    }
+
+    .modal {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding-top: 14px;
+        width: 50px;
+        cursor: pointer;
+
+        span {
+            position: relative;
+            display: block;
+            height: 3px;
+            width: 100%;
+            background: #ffffff;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 10px;
+                ;
+                display: block;
+                height: 3px;
+                width: 100%;
+                background: #ffffff;
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: -10px;
+                display: block;
+                height: 3px;
+                width: 100%;
+                background: #ffffff;
+            }
+        }
+    }
+}
