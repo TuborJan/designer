@@ -1,0 +1,114 @@
+.whyus {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 364px;
+    padding-bottom: 200px;
+    padding-left: 55px;
+    color: #ffffff;
+
+    .circle {
+        position: absolute;
+        display: block;
+        width: 23px;
+        height: 23px;
+        background: #aa84f9;
+        border-radius: 50%;
+    }
+
+
+
+    .personimage {
+        position: relative;
+
+        .backgroundcircle {
+            position: absolute;
+            top: 35px;
+            left: 135px;
+            display: block;
+            width: 396px;
+            height: 396px;
+            margin-right: 180px;
+            background: #aa84f9;
+            border-radius: 50%;
+        }
+
+        .person {
+            position: absolute;
+            top: -39px;
+            left: 167px;
+        }
+
+        .circleovaltop {
+            top: -7px;
+            right: 60px;
+        }
+
+        .circleovalbottom {
+            bottom: -1px;
+            left: 70px;
+        }
+    }
+
+    .maincontent {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        max-width: 429px;
+        margin-top: 61px;
+        margin-left: 160px;
+
+        .header {
+            margin-top: -4px;
+            font-size: 3.93rem;
+            font-weight: bold;
+
+            span {
+                margin-left: -2px;
+                color: #aa84f9;
+                font-weight: 300;
+                letter-spacing: 6px;
+            }
+        }
+
+        .description {
+            margin-top: 23px;
+            font-size: 0.87rem;
+            letter-spacing: 0.8px;
+            line-height: 27px;
+        }
+
+        button {
+            max-width: 130px;
+            margin-top: 59px;
+            margin-left: -1px;
+            padding: 14px 22px;
+            font-size: 0.87rem;
+            font-weight: 500;
+            letter-spacing: 1.4px;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #aa84f9;
+        }
+    }
+
+    .circlebottom {
+        right: 132px;
+        bottom: 24px;
+    }
+
+    .explore {
+        position: absolute;
+        top: 531px;
+        right: -171px;
+        font-size: 6.25rem;
+        font-weight: bold;
+        color: #252525;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+
+    }
+}

@@ -3,14 +3,14 @@ import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <header className={styles.header}>
+    <header className={`container ${styles.header}`} id="home">
       <div className={styles.logo}>
-        <img src="./img/logo.png" alt="shape" />
+        <img src="/img/logo.png" alt="shape" />
       </div>
       <nav className={styles.nav}>
         <ul>
-          <li className={styles.active}>
-            <a href="/">Home</a>
+          <li>
+            <a href="#home">Home</a>
           </li>
           <li>
             <a href="/">About</a>

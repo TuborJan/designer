@@ -1,0 +1,142 @@
+.courses {
+    padding-top: 152px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        color: #f2f2f2;
+
+        h2 {
+            font-size: 7.25rem;
+
+            span {
+                margin-left: 10px;
+                font-size: 2.37rem;
+                font-weight: 300;
+                letter-spacing: 3px;
+            }
+        }
+
+        .edition {
+            display: flex;
+            height: 50px;
+            margin-top: 75px;
+            margin-right: 7px;
+
+            .shape {
+                display: block;
+                width: 12px;
+                height: 12px;
+                margin-top: 5px;
+                margin-right: 20px;
+                background: #ffffff;
+            }
+
+            p {
+                font-size: 1.06rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 1.6px;
+                line-height: 22px;
+
+                .year {
+                    font-size: 1.81rem;
+                    letter-spacing: 3px;
+                }
+            }
+        }
+    }
+
+    .items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 82px;
+        color: #f2f2f2;
+
+        .item {
+            width: 291px;
+            padding-top: 8px;
+            padding-bottom: 34px;
+            border: 2px solid #ffffff;
+
+            .number {
+                padding: 8px;
+                font-size: 1.25rem;
+                font-weight: 700;
+                color: #181818;
+                background-color: #f1f1f1;
+            }
+
+            .info {
+                margin-top: 43px;
+                text-align: center;
+
+                .name {
+                    margin-right: 10px;
+                    font-size: 2rem;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+
+                    span {
+                        font-size: 2rem;
+                        color: #aa84f9;
+                    }
+                }
+
+                .line {
+                    display: block;
+                    width: 55px;
+                    margin: 0 auto;
+                    margin-top: 15px;
+                    border-bottom: 1px solid #aa84f9;
+                }
+
+                .description {
+                    max-width: 195px;
+                    margin: 0 auto;
+                    margin-top: 19px;
+                    font-size: 0.87rem;
+                    letter-spacing: 0.2px;
+                    line-height: 26.5px;
+                }
+
+                button {
+                    margin-top: 28px;
+                    margin-right: 2px;
+                    padding: 12px 21px;
+                    font-size: 0.87rem;
+                    font-weight: 500;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    background: #aa84f9;
+                }
+            }
+        }
+    }
+
+    .more {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #f2f2f2;
+
+        p {
+            margin-right: 54px;
+        }
+
+        button {
+            background: none;
+            border: none;
+
+            img {
+                transform: rotate(180deg);
+                margin-right: 45px;
+            }
+        }
+    }
+}

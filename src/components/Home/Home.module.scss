@@ -1,0 +1,185 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 714px;
+    padding-top: 69px;
+    color: #ffffff;
+
+    .logo {
+        padding-top: 44px;
+        max-width: 286px;
+
+        .UI {
+            position: relative;
+            display: flex;
+            font-size: 8.25rem;
+            font-weight: bold;
+            letter-spacing: 1.4px;
+
+            .dot {
+                color: #A460f9;
+            }
+        }
+
+        .inlineElements {
+            display: flex;
+            justify-content: space-between;
+
+            .begginers {
+                max-width: 71px;
+                margin-top: 249px;
+                font-size: 2.68rem;
+                letter-spacing: 3px;
+                font-weight: normal;
+                text-transform: uppercase;
+                transform: rotate(-90deg);
+
+                .lowercase {
+                    text-transform: lowercase;
+                    font-weight: bold;
+                }
+            }
+
+            .slogan {
+                display: flex;
+                margin-top: 188px;
+                margin-left: 76px;
+                font-size: 0.87rem;
+                font-weight: bold;
+                line-height: 26px;
+                text-transform: uppercase;
+
+                .shape {
+                    display: block;
+                    margin: 8px 13px 0 0;
+                    width: 12px;
+                    height: 12px;
+                    background: #ffffff;
+                }
+            }
+        }
+    }
+
+    .slider {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width: 452px;
+        margin-right: -17px;
+        margin-left: 199px;
+        width: 100%;
+
+        .sliderBackround {
+            z-index: -5;
+            width: 376px;
+            height: 376px;
+            margin-top: 160px;
+            margin-left: -15px;
+            background: #a460f9;
+            border-radius: 50%;
+        }
+
+        .items {
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+        }
+
+        .prewArrow {
+            position: absolute;
+            bottom: 46px;
+            left: -149px;
+            cursor: pointer;
+        }
+
+        .nexArrow {
+            position: absolute;
+            bottom: 46px;
+            right: -63px;
+            transform: rotate(180deg);
+            cursor: pointer;
+        }
+    }
+
+    .info {
+        width: 400px;
+        padding-top: 56px;
+
+        .edition {
+            margin-right: -50px;
+            margin-left: 279px;
+            padding: 15px 35px 26px 35px;
+            font-size: 1.81rem;
+            font-weight: bold;
+            letter-spacing: 4.2px;
+            line-height: 28px;
+            border: 1.5px solid #ffffff;
+            border-right: none;
+
+            span {
+                font-size: 1.06rem;
+                font-weight: bold;
+                letter-spacing: 3.78px;
+                text-transform: uppercase;
+            }
+        }
+
+        .description {
+            max-width: 320px;
+            padding-top: 55px;
+            padding-left: 23px;
+            letter-spacing: 0.5px;
+            line-height: 29px;
+
+            h1 {
+                font-size: 1.25rem;
+                text-transform: uppercase;
+            }
+
+            p {
+                margin-top: 3px;
+                font-size: 0.87rem;
+                font-weight: 600;
+                letter-spacing: 0.7px;
+                line-height: 27px;
+            }
+        }
+
+        .buttons {
+            margin-top: 53px;
+
+            button {
+                &:nth-child(1) {
+                    margin-right: 23px;
+                    margin-left: 24px;
+                    padding: 12px 21px;
+                    font-size: 0.87rem;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    background: none;
+                    border: 1px solid #ffffff;
+                    transition: all 0.2s ease-in-out;
+                }
+
+                &:nth-child(2) {
+                    padding: 12px 21px;
+                    font-size: 0.87rem;
+                    font-weight: bold;
+                    letter-spacing: 1.4px;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                    background: none;
+                    border: 1px solid #ffffff;
+                    transition: all 0.2s ease-in-out;
+                }
+
+                &:hover {
+                    background-color: #a460f9;
+                    border-color: #a460f9;
+                }
+            }
+        }
+    }
+}

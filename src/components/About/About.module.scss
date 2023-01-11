@@ -1,0 +1,150 @@
+.about {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 62px;
+    color: #ffffff;
+
+    .circle {
+        display: block;
+        width: 23px;
+        height: 23px;
+        background: #aa84f9;
+        border-radius: 50%;
+    }
+
+    .top {
+        position: relative;
+        max-height: 220px;
+
+        .circletop {
+            position: absolute;
+            top: -10px;
+            left: 133px;
+        }
+
+        .circletop2 {
+            position: absolute;
+            top: 75px;
+            right: 192px;
+        }
+    }
+
+    .maincontent {
+        display: flex;
+        justify-content: space-between;
+
+        .maintext {
+            display: flex;
+            flex-direction: column;
+            max-width: 431px;
+            margin-left: 183px;
+
+            .header {
+                margin-top: -4px;
+                font-size: 3.93rem;
+                font-weight: bold;
+
+                span {
+                    margin-left: 8px;
+                    color: #aa84f9;
+                    font-weight: 300;
+                    letter-spacing: 6px;
+                }
+            }
+
+            .description {
+                margin-top: 6px;
+                font-size: 0.87rem;
+                letter-spacing: 0.8px;
+                line-height: 27px;
+            }
+
+            .list {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-top: 79px;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                    font-size: 0.78rem;
+                    text-transform: uppercase;
+
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 8px;
+                        height: 8px;
+                        margin-right: 12px;
+                        background: #aa84f9;
+                    }
+
+                    &:nth-child(3) {
+                        margin-top: 51px;
+                    }
+
+                    &:nth-child(4) {
+                        margin-top: 51px;
+                    }
+                }
+            }
+
+            button {
+                max-width: 128px;
+                margin-top: 70px;
+                margin-right: 2px;
+                padding: 12px 21px;
+                font-size: 0.87rem;
+                font-weight: 500;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: #ffffff;
+                background: #aa84f9;
+            }
+        }
+
+        .personimage {
+            position: relative;
+
+            .backgroundcircle {
+                display: block;
+                width: 396px;
+                height: 396px;
+                margin-right: 180px;
+                background: #aa84f9;
+                border-radius: 50%;
+            }
+
+            img {
+                position: absolute;
+                top: -140px;
+                right: 135px;
+            }
+        }
+    }
+
+    .bottom {
+        position: relative;
+        max-height: 220px;
+        margin-top: 139px;
+
+        .circletop {
+            position: absolute;
+            top: -22px;
+            left: 597px;
+        }
+
+        .circletop2 {
+            position: absolute;
+            top: -13px;
+            right: 108px;
+            z-index: 10;
+        }
+
+        img {
+            position: absolute;
+            right: 0;
+        }
+    }
+}
