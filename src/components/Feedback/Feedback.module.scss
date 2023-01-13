@@ -53,14 +53,8 @@
                     border: 3px solid #9172d1;
                     background: none;
                     outline: none;
+                    margin-bottom: 54px;
 
-                    &:nth-child(1) {
-                        margin-bottom: 54px;
-                    }
-
-                    &:nth-child(2) {
-                        margin-bottom: 54px;
-                    }
 
                     &:focus {
                         outline-width: 0;
@@ -96,6 +90,96 @@
             text-transform: uppercase;
             color: #ffffff;
             background: #aa84f9;
+            border: none;
         }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .feedback {
+        position: relative;
+        justify-content: start;
+        padding-top: 70px;
+
+        .mainimg {
+            width: 700px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .feedbackform {
+            position: absolute;
+            right: 0;
+            max-width: 400px;
+            margin-right: 0;
+
+            h2 {
+                margin-left: 0px;
+            }
+
+            span {
+                margin-left: -20px;
+                font-size: 2rem;
+            }
+
+            .form {
+                margin-top: 40px;
+
+                form {
+                    margin-right: 30px;
+                    margin-left: -90px;
+
+                    input {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            button {
+                margin-top: 40px;
+                margin-left: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .feedback {
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 70px;
+
+        .mainimg {
+            display: none;
+        }
+
+        .feedbackform {
+            position: relative;
+            max-width: 500px;
+            text-align: center;
+
+            p {
+                margin-left: 0;
+            }
+
+            .form {
+                form {
+                    margin: 0;
+                }
+            }
+
+            button {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedback {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }

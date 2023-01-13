@@ -15,8 +15,6 @@ const VideoBlock = () => {
       </div>
       <div className={styles.video}>
         <iframe
-          width="1044"
-          height="544"
           src="https://www.youtube.com/embed/4yrpJn0kNNM"
           title="YouTube video player"
           frameBorder={"0"}

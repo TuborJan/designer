@@ -57,3 +57,34 @@
         }
     }
 }
+
+@media screen and (max-width: 1439px) {
+    .successes {
+        padding: 45px 60px 45px 95px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .successes {
+        padding: 30px 40px 30px 40px;
+
+        .achievements {
+            .achivment {
+                h2 {
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    margin-top: 6px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .successes {
+        display: none;
+    }
+}

@@ -102,12 +102,12 @@
     }
 
     .info {
-        width: 400px;
+        // width: 400px;
         padding-top: 56px;
 
         .edition {
-            margin-right: -50px;
-            margin-left: 279px;
+            margin-right: -43px;
+            margin-left: 280px;
             padding: 15px 35px 26px 35px;
             font-size: 1.81rem;
             font-weight: bold;
@@ -180,6 +180,107 @@
                     border-color: #a460f9;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .home {
+        .logo {
+            .UI {
+                font-size: 7.25rem;
+            }
+
+            .inlineElements {
+                .begginers {
+                    font-size: 2rem;
+                }
+
+                .slogan {
+                    margin-left: 55px;
+                }
+            }
+        }
+
+        .slider {
+            max-width: 352px;
+            margin-right: 15px;
+            margin-left: 105px;
+
+            .sliderBackround {
+                width: 300px;
+                height: 300px;
+            }
+
+            .items {
+                margin-top: 60px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .prewArrow {
+                left: -85px;
+            }
+
+            .nexArrow {
+                right: -105px;
+            }
+        }
+
+        .info {
+            .edition {
+                margin-right: 0px;
+                margin-left: 190px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .home {
+        height: 530px;
+
+
+        .logo {
+            padding-top: 0;
+
+            .inlineElements {
+                .begginers {
+                    margin-top: 140px;
+                }
+
+                .slogan {
+                    margin-top: 150px;
+                }
+            }
+        }
+
+        .slider {
+            display: none;
+        }
+
+        .info {
+
+            .edition {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home {
+        justify-content: center;
+        height: 425px;
+
+        .info {
+            padding-top: 0px;
+        }
+
+        .logo {
+            display: none;
         }
     }
 }

@@ -3,7 +3,7 @@ import styles from "./About.module.scss";
 
 const About = () => {
   return (
-    <section className={styles.about}>
+    <section className={styles.about} id="about">
       <div className={styles.top}>
         <img src="/img/ovalhalf.png" alt="oval" />
         <span className={`${styles.circle} ${styles.circletop}`}></span>

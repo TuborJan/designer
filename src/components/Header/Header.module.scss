@@ -57,7 +57,7 @@
 
     .modal {
         position: relative;
-        display: flex;
+        display: none;
         flex-direction: column;
         padding-top: 14px;
         width: 50px;
@@ -90,6 +90,84 @@
                 width: 100%;
                 background: #ffffff;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .header {
+        justify-content: center;
+
+        .logo {
+            margin-right: 100px;
+        }
+
+        .nav {
+            margin-right: 76px;
+
+            ul {
+                gap: 60px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+
+        .logo {
+            margin-right: 35px;
+        }
+
+        .nav {
+            margin-right: 35px;
+
+            ul {
+                gap: 35px;
+            }
+        }
+
+        .signIn {
+            margin-right: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        .nav {
+            position: fixed;
+            z-index: 5;
+            left: 100%;
+            max-width: 100vw;
+            width: 100vw;
+            height: 100vh;
+            background: #181818;
+            transition: all 0.3s;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .modal {
+            display: flex;
+            z-index: 10;
+        }
+
+        .active {
+            padding-top: 100px;
+            text-align: center;
+            transform: translateX(-100vw);
+        }
+
+        .logo {
+            margin-right: 15px;
+        }
+
+        .signIn {
+            margin-right: 15px;
         }
     }
 }

@@ -18,8 +18,6 @@
         border-radius: 50%;
     }
 
-
-
     .personimage {
         position: relative;
 
@@ -92,6 +90,7 @@
             text-transform: uppercase;
             color: #ffffff;
             background: #aa84f9;
+            border: none;
         }
     }
 
@@ -110,5 +109,74 @@
         text-transform: uppercase;
         transform: rotate(-90deg);
 
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .whyus {
+        justify-content: space-between;
+        padding: 270px 20px 125px 20px;
+
+        .personimage {
+            max-width: 500px;
+
+            .backgroundcircle {
+                width: 300px;
+                height: 300px;
+                top: 70px;
+                left: 175px;
+            }
+
+            .circleovaltop {
+                top: 10px;
+                right: -25px;
+            }
+
+            .circleovalbottom {
+                bottom: 20px;
+            }
+
+            .person {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .explore {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .whyus {
+        justify-content: center;
+        padding-top: 200px;
+        padding-bottom: 60px;
+
+        .personimage {
+            display: none;
+        }
+
+        .maincontent {
+            margin-left: 0;
+        }
+
+        .circlebottom {
+            right: 170px;
+            bottom: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whyus {
+        padding-top: 165px;
+        padding-bottom: 0;
+
+        .circlebottom {
+            display: none;
+        }
     }
 }
