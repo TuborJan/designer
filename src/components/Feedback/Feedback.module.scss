@@ -1,0 +1,185 @@
+.feedback {
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+    color: #ffffff;
+
+    .feedbackform {
+        margin-right: 165px;
+
+        h2 {
+            margin-top: 72px;
+            margin-bottom: -16px;
+            margin-left: 4px;
+            font-size: 3rem;
+            text-transform: uppercase;
+        }
+
+        span {
+            margin-left: -77px;
+            font-size: 2.87rem;
+            letter-spacing: 2.8px;
+            color: #8a6dc7;
+        }
+
+        p {
+            max-width: 470px;
+            margin-top: 18px;
+            margin-left: -95px;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            line-height: 31px;
+            text-align: center;
+        }
+
+        .form {
+            margin-top: 95px;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                margin-right: -24px;
+                margin-left: -112px;
+
+                input {
+                    max-width: 571px;
+                    padding: 22px 39px;
+                    font-family: 'Krub', sans-serif;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    letter-spacing: 4px;
+                    color: #ffffff;
+                    border: 3px solid #9172d1;
+                    background: none;
+                    outline: none;
+                    margin-bottom: 54px;
+
+
+                    &:focus {
+                        outline-width: 0;
+                    }
+                }
+
+                textarea {
+                    max-width: 571px;
+                    padding: 22px 39px;
+                    font-family: 'Krub', sans-serif;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    letter-spacing: 4px;
+                    color: #ffffff;
+                    border: 3px solid #9172d1;
+                    background: none;
+
+                    &:focus {
+                        outline-width: 0;
+                    }
+                }
+            }
+        }
+
+        button {
+            max-width: 172px;
+            margin-top: 86px;
+            margin-left: 57px;
+            padding: 21px 34px;
+            font-size: 0.87rem;
+            font-weight: 500;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #ffffff;
+            background: #aa84f9;
+            border: none;
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .feedback {
+        position: relative;
+        justify-content: start;
+        padding-top: 70px;
+
+        .mainimg {
+            width: 700px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .feedbackform {
+            position: absolute;
+            right: 0;
+            max-width: 400px;
+            margin-right: 0;
+
+            h2 {
+                margin-left: 0px;
+            }
+
+            span {
+                margin-left: -20px;
+                font-size: 2rem;
+            }
+
+            .form {
+                margin-top: 40px;
+
+                form {
+                    margin-right: 30px;
+                    margin-left: -90px;
+
+                    input {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            button {
+                margin-top: 40px;
+                margin-left: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .feedback {
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 70px;
+
+        .mainimg {
+            display: none;
+        }
+
+        .feedbackform {
+            position: relative;
+            max-width: 500px;
+            text-align: center;
+
+            p {
+                margin-left: 0;
+            }
+
+            .form {
+                form {
+                    margin: 0;
+                }
+            }
+
+            button {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .feedback {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

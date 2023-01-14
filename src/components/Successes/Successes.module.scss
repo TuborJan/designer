@@ -1,0 +1,90 @@
+.successes {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 63px 97px 80px 144px;
+    color: #ffffff;
+    background-color: #181818;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+
+    .achievements {
+        display: flex;
+        justify-content: space-between;
+
+        .achivment {
+            display: flex;
+
+            h2 {
+                margin-right: 20.5px;
+                font-size: 3.18rem;
+                font-family: 'Oswald', sans-serif;
+
+                .count {
+                    color: #a460f9;
+                }
+            }
+
+            p {
+                display: flex;
+                justify-content: center;
+                margin-top: 12px;
+                flex-direction: column;
+                font-size: 1.37rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 2.5px;
+
+                .name {
+                    font-weight: 300;
+                }
+            }
+
+            &:nth-child(2) {
+                h2 {
+                    margin-right: 15.5px;
+                    margin-left: -20px;
+                }
+            }
+
+            &:nth-child(3) {
+                h2 {
+                    margin-right: 13.5px;
+                }
+
+                p {
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .successes {
+        padding: 45px 60px 45px 95px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .successes {
+        padding: 30px 40px 30px 40px;
+
+        .achievements {
+            .achivment {
+                h2 {
+                    font-size: 2.5rem;
+                }
+
+                p {
+                    margin-top: 6px;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .successes {
+        display: none;
+    }
+}
