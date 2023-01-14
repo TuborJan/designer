@@ -32,10 +32,10 @@ const Header = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="/">Courses</a>
+            <a href="#courses">Courses</a>
           </li>
           <li>
-            <a href="/">Blog</a>
+            <a href="#blog">Blog</a>
           </li>
         </ul>
       </nav>

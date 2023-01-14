@@ -67,7 +67,7 @@ const Reviews = () => {
   };
 
   return (
-    <section className={`container ${styles.reviews}`}>
+    <section className={`container ${styles.reviews}`} id="blog">
       <div className={styles.header}>
         <h2>
           what

@@ -3,7 +3,7 @@ import styles from "./Courses.module.scss";
 
 const Courses = () => {
   return (
-    <section className={`container ${styles.courses}`}>
+    <section className={`container ${styles.courses}`} id="courses">
       <div className={styles.header}>
         <h2>
           FIND
