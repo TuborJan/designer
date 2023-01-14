@@ -7,13 +7,13 @@ import styles from "./Home.module.scss";
 const Home = () => {
   let sliderItems = [
     {
-      img: "/img/person1.png",
+      img: "https://tuborjan.github.io/designer/img/person1.png",
     },
     {
-      img: "/img/person2.png",
+      img: "https://tuborjan.github.io/designer/img/person2.png",
     },
     {
-      img: "/img/person3.png",
+      img: "https://tuborjan.github.io/designer/img/person3.png",
     },
   ];
 
@@ -63,13 +63,13 @@ const Home = () => {
         <img
           className={styles.prewArrow}
           onClick={() => slider?.current?.slickPrev()}
-          src="/img/arrow.png"
+          src="https://tuborjan.github.io/designer/img/arrow.png"
           alt="prew arrow"
         />
         <img
           className={styles.nexArrow}
           onClick={() => slider?.current?.slickNext()}
-          src="/img/arrow.png"
+          src="https://tuborjan.github.io/designer/img/arrow.png"
           alt="next arrow"
         />
       </div>

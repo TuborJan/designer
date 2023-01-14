@@ -6,7 +6,10 @@ const VideoBlock = () => {
     <section className={`container ${styles.video}`}>
       <div className={`${styles.getstartedleft} ${styles.getstarted}`}>
         <div className={styles.arrowimg}>
-          <img src="/img/boldarrow.png" alt="arrow" />
+          <img
+            src="https://tuborjan.github.io/designer/img/boldarrow.png"
+            alt="arrow"
+          />
         </div>
         <p>
           ready to <br />
@@ -28,7 +31,10 @@ const VideoBlock = () => {
           get started
         </p>
         <div className={styles.arrowimg}>
-          <img src="/img/boldarrow.png" alt="arrow" />
+          <img
+            src="https://tuborjan.github.io/designer/img/boldarrow.png"
+            alt="arrow"
+          />
         </div>
       </div>
     </section>

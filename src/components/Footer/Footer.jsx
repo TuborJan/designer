@@ -51,13 +51,22 @@ const Footer = () => {
           <div className={styles.socials}>
             <p>Follow us!</p>
             <div className={styles.socialsimg}>
-              <img src="/img/facebook.png" alt="facebook" />
+              <img
+                src="https://tuborjan.github.io/designer/img/facebook.png"
+                alt="facebook"
+              />
             </div>
             <div className={styles.socialsimg}>
-              <img src="/img/instagramm.png" alt="instagramm" />
+              <img
+                src="https://tuborjan.github.io/designer/img/instagramm.png"
+                alt="instagramm"
+              />
             </div>
             <div className={styles.socialsimg}>
-              <img src="/img/youtube.png" alt="youtube" />
+              <img
+                src="https://tuborjan.github.io/designer/img/youtube.png"
+                alt="youtube"
+              />
             </div>
           </div>
         </div>

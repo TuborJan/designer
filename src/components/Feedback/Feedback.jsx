@@ -5,7 +5,10 @@ const Feedback = () => {
   return (
     <section className={styles.feedback}>
       <div className={styles.mainimg}>
-        <img src="/img/FeedbackImg.png" alt="person" />
+        <img
+          src="https://tuborjan.github.io/designer/img/FeedbackImg.png"
+          alt="person"
+        />
       </div>
       <div className={styles.feedbackform}>
         <h2>Subscribe</h2>

@@ -19,7 +19,10 @@ const Header = () => {
   return (
     <header className={`container ${styles.header}`} id="home">
       <div className={styles.logo}>
-        <img src="/img/logo.png" alt="shape" />
+        <img
+          src="https://tuborjan.github.io/designer/img/logo.png"
+          alt="shape"
+        />
       </div>
       <nav
         className={modal ? `${styles.nav} ${styles.active}` : `${styles.nav}`}

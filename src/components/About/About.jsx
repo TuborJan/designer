@@ -5,7 +5,10 @@ const About = () => {
   return (
     <section className={styles.about} id="about">
       <div className={styles.top}>
-        <img src="/img/ovalhalf.png" alt="oval" />
+        <img
+          src="https://tuborjan.github.io/designer/img/ovalhalf.png"
+          alt="oval"
+        />
         <span className={`${styles.circle} ${styles.circletop}`}></span>
         <span className={`${styles.circle} ${styles.circletop2}`}></span>
       </div>
@@ -29,13 +32,19 @@ const About = () => {
         </div>
         <div className={styles.personimage}>
           <span className={styles.backgroundcircle}></span>
-          <img src="/img/person2.png" alt="person" />
+          <img
+            src="https://tuborjan.github.io/designer/img/person2.png"
+            alt="person"
+          />
         </div>
       </div>
       <div className={styles.bottom}>
         <span className={`${styles.circle} ${styles.circletop}`}></span>
         <span className={`${styles.circle} ${styles.circletop2}`}></span>
-        <img src="/img/ovalhalf2.png" alt="oval" />
+        <img
+          src="https://tuborjan.github.io/designer/img/ovalhalf2.png"
+          alt="oval"
+        />
       </div>
     </section>
   );

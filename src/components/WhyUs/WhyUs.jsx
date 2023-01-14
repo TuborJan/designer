@@ -8,8 +8,16 @@ const WhyUs = () => {
         <span className={styles.backgroundcircle}></span>
         <span className={`${styles.circle} ${styles.circleovaltop}`}></span>
         <span className={`${styles.circle} ${styles.circleovalbottom}`}></span>
-        <img src="/img/oval2.png" alt="oval" className={styles.oval} />
-        <img src="/img/person3.png" alt="person" className={styles.person} />
+        <img
+          src="https://tuborjan.github.io/designer/img/oval2.png"
+          alt="oval"
+          className={styles.oval}
+        />
+        <img
+          src="https://tuborjan.github.io/designer/img/person3.png"
+          alt="person"
+          className={styles.person}
+        />
       </div>
       <div className={styles.maincontent}>
         <h2 className={styles.header}>

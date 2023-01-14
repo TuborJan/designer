@@ -10,7 +10,10 @@ const Slogan = () => {
           discover your skills
         </div>
         <div className={styles.oval}>
-          <img src="/img/oval.png" alt="oval" />
+          <img
+            src="https://tuborjan.github.io/designer/img/oval.png"
+            alt="oval"
+          />
           <span className={`${styles.first} ${styles.circle}`}></span>
           <div className={styles.title}>
             <h2>
@@ -29,7 +32,10 @@ const Slogan = () => {
 
       <div className={styles.explore}>
         explore
-        <img src="/img/arrowbottom.png" alt="arrow" />
+        <img
+          src="https://tuborjan.github.io/designer/img/arrowbottom.png"
+          alt="arrow"
+        />
         about
       </div>
     </section>

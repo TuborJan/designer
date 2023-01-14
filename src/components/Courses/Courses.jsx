@@ -78,7 +78,10 @@ const Courses = () => {
       <div className={styles.more}>
         <p>more courses</p>
         <button>
-          <img src="/img/arrow.png" alt="arrow" />
+          <img
+            src="https://tuborjan.github.io/designer/img/arrow.png"
+            alt="arrow"
+          />
         </button>
       </div>
     </section>

@@ -10,31 +10,31 @@ const Reviews = () => {
       name: "Laura Smith",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua .",
-      img: "/img/Image1.png",
+      img: "https://tuborjan.github.io/designer/img/Image1.png",
     },
     {
       name: "Jhon Smith",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua .",
-      img: "/img/Image2.png",
+      img: "https://tuborjan.github.io/designer/img/Image2.png",
     },
     {
       name: "Sara smith",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua .",
-      img: "/img/Image3.png",
+      img: "https://tuborjan.github.io/designer/img/Image3.png",
     },
     {
       name: "Adam Smith",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua .",
-      img: "/img/Image2.png",
+      img: "https://tuborjan.github.io/designer/img/Image2.png",
     },
     {
       name: "Kara Smith",
       review:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      img: "/img/Image1.png",
+      img: "https://tuborjan.github.io/designer/img/Image1.png",
     },
   ];
 
@@ -104,9 +104,15 @@ const Reviews = () => {
                 <img src="/img/emptystar.png" alt="empty star" />
               </div>
               <div className={styles.text}>
-                <img src="/img/Quote1.png" alt="qoute" />
+                <img
+                  src="https://tuborjan.github.io/designer/img/Quote1.png"
+                  alt="qoute"
+                />
                 <p>{item.review}</p>
-                <img src="/img/Quote2.png" alt="qoute" />
+                <img
+                  src="https://tuborjan.github.io/designer/img/Quote2.png"
+                  alt="qoute"
+                />
               </div>
             </div>
           ))}
@@ -115,13 +121,13 @@ const Reviews = () => {
           <img
             className={styles.prewArrow}
             onClick={() => slider?.current?.slickPrev()}
-            src="/img/boldarrow.png"
+            src="https://tuborjan.github.io/designer/img/boldarrow.png"
             alt="prew arrow"
           />
           <img
             className={styles.nexArrow}
             onClick={() => slider?.current?.slickNext()}
-            src="/img/boldarrow.png"
+            src="https://tuborjan.github.io/designer/img/boldarrow.png"
             alt="next arrow"
           />
         </div>
