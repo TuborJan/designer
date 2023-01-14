@@ -82,26 +82,29 @@ const Reviews = () => {
               <h3 className={styles.name}>{item.name}</h3>
               <div className={styles.score}>
                 <img
-                  src="/img/fullstar.png"
+                  src="https://tuborjan.github.io/designer/img/fullstar.png"
                   alt="full star"
                   className={styles.fullstar}
                 />
                 <img
-                  src="/img/fullstar.png"
+                  src="https://tuborjan.github.io/designer/img/fullstar.png"
                   alt="full star"
                   className={styles.fullstar}
                 />
                 <img
-                  src="/img/fullstar.png"
+                  src="https://tuborjan.github.io/designer/img/fullstar.png"
                   alt="full star"
                   className={styles.fullstar}
                 />
                 <img
-                  src="/img/fullstar.png"
+                  src="https://tuborjan.github.io/designer/img/fullstar.png"
                   alt="full star"
                   className={styles.fullstar}
                 />
-                <img src="/img/emptystar.png" alt="empty star" />
+                <img
+                  src="https://tuborjan.github.io/designer/img/emptystar.png"
+                  alt="empty star"
+                />
               </div>
               <div className={styles.text}>
                 <img
